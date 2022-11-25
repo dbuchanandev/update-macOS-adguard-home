@@ -26,7 +26,7 @@ sudo cp /tmp/AdGuardHome/CHANGELOG.md /Applications/AdGuardHome/
 sudo chmod +x /Applications/AdGuardHome/AdGuardHome
 
 # Restart AdGuard Home
-sudo /Applications/AdGuardHome/AdGuardHome -s start
+sudo /Applications/AdGuardHome/AdGuardHome --update -s start
 
 # cleanup tmp files
 rm -rf /tmp/AdGuardHome
